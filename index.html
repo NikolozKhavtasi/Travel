@@ -15,6 +15,7 @@
                 background-repeat: no-repeat;
                 background-position-x: center;
                 background-position-y: 4440px;
+                overflow-x: hidden;
             }
             
             * {
@@ -28,30 +29,38 @@
             <a class="navbar-brand" href="#">
                 <img src="Travlog.png"> Travlog
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="hambutton navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <style>
+                .hambutton {
+                    border: none;
+                    background-color: #5D50C6;
+                    height: 50px;
+                    border-radius: 15px;
+                }
+            </style>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item active" style="padding-left: 40px; padding-right: 40px;">
-                        <a class="nav-link active" href="#" style="font-weight: bold;">Home</a>
+                        <a class="nav-link active" href="#" style="font-weight: bold;" style="white-space: nowrap;">Home</a>
                     </li>
                     <li class="nav-item" style="padding-left: 40px; padding-right: 40px;">
-                        <a class="nav-link opacity-50" href="#" style="font-weight: bold;">Discover</a>
+                        <a class="nav-link opacity-50" href="#" style="font-weight: bold;" style="white-space: nowrap;">Discover</a>
                     </li>
                     <li class="nav-item" style="padding-left: 40px; padding-right: 40px;">
-                        <a class="nav-link opacity-50" href="#" style="font-weight: bold;">Special Deals</a>
+                        <a class="nav-link opacity-50" href="#" style="font-weight: bold;" style="white-space: nowrap;">Special Deals</a>
                     </li>
                     <li class="nav-item" style="padding-left: 40px; padding-right: 40px;">
-                        <a class="nav-link opacity-50" href="#" style="font-weight: bold;">Contact</a>
+                        <a class="nav-link opacity-50" href="#" style="font-weight: bold;" style="white-space: nowrap;">Contact</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link active" href="#" style="font-weight: bold; padding-right: 50px;">Log In</a>
+                        <a class="nav-link active" href="#" style="font-weight: bold; padding-right: 50px;" style="white-space: nowrap;">Log In</a>
                     </li>
                     <li class="nav-item active">
-                        <button type="button" style="margin-top: -5px; border: none; background-color: #5D50C6; width: 115px; height: 50px; border-radius: 100px; color: #EEEEEE; font-weight: bold;">Sign Up</button>
+                        <button type="button" style="margin-top: -5px; border: none; background-color: #5D50C6; width: 115px; height: 50px; border-radius: 100px; color: #EEEEEE; font-weight: bold;" style="white-space: nowrap;">Sign Up</button>
                     </li>
                 </ul>
             </div>
